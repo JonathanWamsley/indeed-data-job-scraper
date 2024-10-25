@@ -1,5 +1,5 @@
 format:
-	black *.py
+	black src/ tests/
 
 lint:
 	pylint --disable=R,C src/
