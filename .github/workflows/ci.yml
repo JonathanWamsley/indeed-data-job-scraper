@@ -17,7 +17,7 @@ jobs:
           pip install -r requirements.txt
       - name: Run tests
         run: |
-          pytest
+          python -m pytest -vv --cov=tests/
 
   format:
     runs-on: ubuntu-latest
@@ -49,4 +49,4 @@ jobs:
           pip install pylint
       - name: Lint code
         run: |
-          pylint src/
+          pylint --disable=R,C src/

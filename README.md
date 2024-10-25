@@ -25,9 +25,7 @@ Scrapes indeed at data related urls jobs
 1. Configure the scraping settings in `config.yml`.
 
 2. Run the scraper:
-   ```sh
-   python src/scraper.py
-   ```
+   Not yet implemented
 
 ## Documentation
 

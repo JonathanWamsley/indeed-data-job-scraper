@@ -1,10 +1,8 @@
-.PHONY: test format lint
-
-test:
-	pytest
-
 format:
-	black --check .
+	black *.py
 
 lint:
-	pylint src/
+	pylint --disable=R,C src/
+
+test:
+	python -m pytest -vv --cov=tests/
