@@ -1,0 +1,13 @@
+# Initial configuration settings for scraping
+
+scraping:
+  base_url: "https://www.indeed.com"
+  search_query: "data"
+  location: "remote"
+  num_pages: 5
+  delay_between_requests: 2  # in seconds
+
+output:
+  data_directory: "data/"
+  output_format: "csv"
+  output_file: "scraped_jobs.csv"

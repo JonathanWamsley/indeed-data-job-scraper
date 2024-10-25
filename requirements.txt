@@ -1,0 +1,7 @@
+# Required dependencies for the project
+requests
+beautifulsoup4
+pandas
+pytest
+black
+pylint
